@@ -1,0 +1,10 @@
+body{
+    background-color: dodgerblue;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 190%;
+    text-align: center;
+    color: white;
+    text-shadow: black -9px 9px;
+}
