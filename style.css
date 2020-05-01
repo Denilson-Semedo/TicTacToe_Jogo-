@@ -1,10 +1,104 @@
 body{
-    background-color: dodgerblue;
+    height: 100%;
+    font-family: 'Opens Sans',sans-serif;
+    background-color: #FFE900;
 }
+
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 190%;
-    text-align: center;
-    color: white;
-    text-shadow: black -9px 9px;
+    text-shadow: 2px 3px 6px darkgray;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap ;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.board-container{
+    height: 100%;
+    width: 100%;
+}
+
+.board{
+    width: 468px;
+    font-size: 500%;
+}
+
+#caixa-1{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-top: none;
+    border-left: none;
+    border-radius: 0%;
+    
+}
+#caixa-2{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-top: none;
+    border-radius: 0%;
+}
+#caixa-3{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-top: none;
+    border-right: none;
+    border-radius: 0%;
+}
+#caixa-4{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-left: none;
+    border-radius: 0%;
+}
+#caixa-5{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 0%;
+}
+#caixa-6{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-right: none;
+    border-radius: 0%;
+}
+#caixa-7{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 0%;
+}
+#caixa-8{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-bottom: none;
+    border-radius: 0%;
+}
+#caixa-9{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-bottom: none;
+    border-right: none;
+    border-radius: 0%;
 }
